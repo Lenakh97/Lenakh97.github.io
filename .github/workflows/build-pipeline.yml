@@ -1,4 +1,7 @@
 name: AccentureWorkshop
+on:
+chedule:
+  - cron: 20 07 * * 1
 
 on:
   push:
