@@ -30,7 +30,7 @@ jobs:
           FIRST_NAME: Lena
           MIDDLE_NAME: Kråkevik
           LAST_NAME: Haraldseid
-          SECRET: PASSWORD
+          SECRET: ${{secrets.PASSWORD}}
 
   deploy:
     needs: build
