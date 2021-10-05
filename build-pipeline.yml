@@ -54,6 +54,6 @@ jobs:
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
       - name: log in to docker
         uses: docker/login-action@v1
-        env: 
+        with: 
           Username: ${{secrets.DOCKER_USERNAME}}
           Password: ${{secrets.DOCKER_PASSWORD}}
