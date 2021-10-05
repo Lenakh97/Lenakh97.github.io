@@ -1,13 +1,12 @@
 name: AccentureWorkshop
-on:
-  schedule:
-    - cron: 20 07 * * 1
 
 on:
   push:
     branches: [ develop ]
   pull_request:
     branches: [ develop ]
+  schedule:
+    - cron: 20 07 * * 1
 
 jobs:
   build:
